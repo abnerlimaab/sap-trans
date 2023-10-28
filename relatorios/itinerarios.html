@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP Trans</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="export-xlsx.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar_list">
+            <li><a href="/index.html" class="navbar_route">Inicio</a></li>
+            <li><a href="/cadastro.html" class="navbar_route">Cadastro</a></li>
+            <li><a href="/relatorios.html" class="navbar_route active_route">Relatórios</a></li>
+            <li><a href="/sobre.html" class="navbar_route">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <maain class="page_content">
+        <h1>Exportar itinerários</h1>
+
+        <form class="report_form">
+            <div class="input_box">
+                <label for="dataInicial" class="form_label">Data inicial</label>
+                <input type="date" name="dataInicial" id="dataInicial" class="form_input">
+            </div>
+
+            <div class="input_box">
+                <label for="dataFinal" class="form_label">Data final</label>
+                <input type="date" name="dataFinal" id="dataFinal" class="form_input">
+            </div>
+        </form>
+
+        <a download="relatorios.xlsx" id="export" href="relatorio.xlsx" class="export_report">Exportar</a>
+    </maain>
+</body>
+
+</html>

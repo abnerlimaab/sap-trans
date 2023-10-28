@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #42afeb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.page_content {
+  padding: 2rem;
+}
+
+h1 {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.navbar_list {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar_route {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active_route {
+  color: #ebe642;
+  font-weight: 600;
+}
+
+.report_box {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: #5c8196;
+}
+
+.report_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.report_form {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.input_box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.export_report {
+    margin-left: 2rem;
+    padding: .5rem 1rem;
+    background-color: #5c8196;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
